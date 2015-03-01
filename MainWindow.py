@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created: Sun Mar  1 01:52:26 2015
+# Created: Sun Mar  1 02:59:55 2015
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -492,6 +492,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.addWidget(self.pushButton_2)
         self.verticalLayout_2.addLayout(self.horizontalLayout_2)
         self.labelProgress = QtGui.QLabel(self.tab_3)
+        self.labelProgress.setWordWrap(True)
         self.labelProgress.setObjectName(_fromUtf8("labelProgress"))
         self.verticalLayout_2.addWidget(self.labelProgress)
         self.progressBar = QtGui.QProgressBar(self.tab_3)
@@ -514,14 +515,14 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(0)
-        self.stackedWidget.setCurrentIndex(4)
+        self.tabWidget.setCurrentIndex(2)
+        self.stackedWidget.setCurrentIndex(0)
         QtCore.QObject.connect(self.comboBoxTransformationType, QtCore.SIGNAL(_fromUtf8("currentIndexChanged(int)")), self.stackedWidget.setCurrentIndex)
         QtCore.QObject.connect(self.stackedWidget, QtCore.SIGNAL(_fromUtf8("currentChanged(int)")), self.comboBoxTransformationType.setCurrentIndex)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "VideoNurd", None))
         self.buttonOpenFile.setText(_translate("MainWindow", "Import File(s)", None))
         self.buttonImportFolder.setText(_translate("MainWindow", "Import Folder", None))
         self.listWidgetFileListing.setSortingEnabled(False)
