@@ -1,3 +1,4 @@
-outfiles/
-outfiles/*
+build/
+dist/
+outFiles/
 *.pyc
