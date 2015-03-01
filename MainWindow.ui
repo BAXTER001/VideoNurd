@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -355,14 +355,14 @@ margin-left:5px;</string>
              <item>
               <widget class="QPushButton" name="pushButton_3">
                <property name="text">
-                <string>PushButton</string>
+                <string>Reset Crop</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton">
                <property name="text">
-                <string>PushButton</string>
+                <string>Reset SubClip Selection</string>
                </property>
               </widget>
              </item>
@@ -1077,6 +1077,8 @@ margin-left:5px;</string>
           <property name="font">
            <font>
             <family>Monospace</family>
+            <stylestrategy>NoAntialias</stylestrategy>
+            <kerning>false</kerning>
            </font>
           </property>
           <property name="mouseTracking">
@@ -1092,13 +1094,10 @@ margin-left:5px;</string>
            <bool>true</bool>
           </property>
           <property name="plainText">
-           <string>########################################################
-#                                                      #
-#   VideoNurd beta - A gui wrapper over moviepy        #
-#                                                      #
-#   Made with love for the freaks at /webm/ and /wx/   #
-#                                                      #
-########################################################</string>
+           <string>VideoNurd beta
+A gui wrapper over moviepy
+Made with love for the freaks at /webm/ and /wx/
+</string>
           </property>
           <property name="textInteractionFlags">
            <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>

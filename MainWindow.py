@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created: Sun Mar  1 02:59:55 2015
+# Created: Sun Mar  1 16:03:50 2015
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -515,7 +515,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(0)
         QtCore.QObject.connect(self.comboBoxTransformationType, QtCore.SIGNAL(_fromUtf8("currentIndexChanged(int)")), self.stackedWidget.setCurrentIndex)
         QtCore.QObject.connect(self.stackedWidget, QtCore.SIGNAL(_fromUtf8("currentChanged(int)")), self.comboBoxTransformationType.setCurrentIndex)

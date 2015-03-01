@@ -2,9 +2,9 @@
 import sys
 import os
 import re
-from PyQt4 import uic, QtCore, QtGui
+from PyQt4 import QtGui
+from PyQt4 import QtCore
 from PyQt4.phonon import Phonon
-from PyQt4.QtCore import SLOT
 from time import sleep
 import MainWindow
 import logging
