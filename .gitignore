@@ -1,0 +1,3 @@
+outfiles/
+outfiles/*
+*.pyc
